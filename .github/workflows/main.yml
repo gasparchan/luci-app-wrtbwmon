@@ -2,7 +2,8 @@ name: CI
 
 on:
   push:
-
+  watch:
+    types: [started]
 jobs:
   build:
     name: Build the IPK
